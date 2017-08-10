@@ -11,6 +11,8 @@ The tutorial can be found at `pyGmt <http://pygmt.readthedocs.io/>`_.
 Examples
 --------
 
+To plot Great Britain, Italy, and France in blue with a red outline and Spain, Portugal and Greece in yellow (no outline), and pick up the plot domain form the extents of these countries, use
+
 >>> import pyGmt
 >>> gmt = pyGmt.Gmt()
 >>> gmt.comment("plot a coastline")
