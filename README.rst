@@ -13,4 +13,8 @@ Examples
 
 >>> import pyGmt
 >>> gmt = pyGmt.Gmt()
+>>> gmt.comment("plot a coastline")
+>>> gmt.cmd("pscoast", "-JM6i -P -Baf -EGB,IT,FR+gblue+p0.25p,red+r -EES,PT,GR+gyellow > map.ps")
+or
+>>> gmt.shell("gmt pscoast -JM6i -P -Baf -EGB,IT,FR+gblue+p0.25p,red+r -EES,PT,GR+gyellow > map.ps")
 
