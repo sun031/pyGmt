@@ -29,25 +29,20 @@ class Gmt:
     
     def set(self, arg, val):
         """
-        Set default GMT parameters
+        Set default GMT parameters.
 
-        Example
-        -------
+        Examples
+        --------
         ::
-        
+
             set('FONT_TITLE', '10p,Helvetica,black')
 
        Parameters
        ----------
-       arg : name, e.g., 'FONT_TITLE'
-       val : value e.g., '10p,Helvetica,black'
-
-       Returns
-       -------
-
-       See also
-       --------
-
+       arg : name,
+            e.g., 'FONT_TITLE'
+       val : value
+            e.g., '10p,Helvetica,black'
 
         """
         fp = open(self.scr, 'a')
