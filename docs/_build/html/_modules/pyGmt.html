@@ -187,7 +187,12 @@
     
 <div class="viewcode-block" id="Gmt.set"><a class="viewcode-back" href="../pyGmt.html#pyGmt.Gmt.set">[docs]</a>    <span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">arg</span><span class="p">,</span> <span class="n">val</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">        set gmtdefaults</span>
+<span class="sd">        Set gmtdefaults values</span>
+
+<span class="sd">        :param arg</span>
+<span class="sd">        :param val</span>
+
+<span class="sd">        :return none</span>
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">fp</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">scr</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">)</span>
         <span class="n">fp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;gmtset &#39;</span><span class="o">+</span><span class="n">arg</span><span class="o">+</span><span class="s1">&#39;=&#39;</span><span class="o">+</span><span class="n">val</span><span class="o">+</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>

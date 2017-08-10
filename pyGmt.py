@@ -29,7 +29,12 @@ class Gmt:
     
     def set(self, arg, val):
         """
-        set gmtdefaults
+        Set gmtdefaults values
+
+        :param arg
+        :param val
+
+        :return none
         """
         fp = open(self.scr, 'a')
         fp.write('gmtset '+arg+'='+val+'\n')
