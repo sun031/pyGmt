@@ -31,9 +31,24 @@ class Gmt:
         """
         Set default GMT parameters
 
-        :param arg: parameter name, e.g., 'FONT_TITLE'
-        :param val: parameter value, e.g., '10p,Helvetica,black'
-        :return:
+        Example
+        -------
+        ::
+        
+            set('FONT_TITLE', '10p,Helvetica,black')
+
+       Parameters
+       ----------
+       arg : name, e.g., 'FONT_TITLE'
+       val : value e.g., '10p,Helvetica,black'
+
+       Returns
+       -------
+
+       See also
+       --------
+
+
         """
         fp = open(self.scr, 'a')
         fp.write('gmtset '+arg+'='+val+'\n')
