@@ -27,3 +27,9 @@ and now you would see a 'rungmt.sh' in the current directory. Then use
 >>> gmt.execute()
 
 to run the script.
+
+Installation
+------------
+
+Downloat the code and run
+>>> python setup.py install
